@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOTO Apps</title>
-    <meta name="description" content="sample text...">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#myapps">My Apps</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <script src="./assets/js/app.js"></script>
+  <main>
+    <section id="home">
+      <h1>Wellcome to my Website!</h1>
+      <p>Kosuke Gotoの個人開発アプリの紹介ページです！</p>
+    </section>
+
+    <section id="myapps">
+      <h2>My Apps</h2>
+      <div class="app-container">
+        <div class="app">
+          <img src="images/shiritori.jpg" alt="App 1">
+          <h3>英単語しりとり</h3>
+          <p>英単語を使ったしりとりで敵を倒そすゲームアプリ！</p>
+          <a href="https://apps.apple.com/jp/app/%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%81%97%E3%82%8A%E3%81%A8%E3%82%8A/id1581560378">App Store</a>
+        </div>
+        <div class="app">
+          <img src="images/pokemonq.jpg" alt="App 2">
+          <h3>図鑑クイズforポケモン</h3>
+          <p>ポケモン図鑑のテキストからポケモン名を当てるクイズアプリ！</p>
+          <a href="https://apps.apple.com/jp/app/%E5%9B%B3%E9%91%91%E3%82%AF%E3%82%A4%E3%82%BA-for-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3/id1634552517">App Store</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Twitter: @Gotchi0001</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
