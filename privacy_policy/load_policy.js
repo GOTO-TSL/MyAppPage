@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
             fileName = 'shiritori.md';
             break;
         case 'quiz':
-            fileName = 'quiz.txt';
+            fileName = 'quiz.md';
             break;
         case 'color':
-            fileName = 'color.txt';
+            fileName = 'color.md';
             break;
         default:
             privacyPolicySection.innerHTML = '<p>無効なアプリ指定です。</p>';

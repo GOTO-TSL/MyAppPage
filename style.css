@@ -128,20 +128,6 @@ footer {
   margin-bottom: 1rem;
 }
 
-.app-links {
-  margin-bottom: 1rem;
-}
-
-.store-link {
-  background-color: #4CAF50;
-  color: white;
-  padding: 0.5rem 1rem;
-  margin: 0.5rem;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
-
 .store-link:hover {
   background-color: #45a049;
 }
