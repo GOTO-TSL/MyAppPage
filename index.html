@@ -1,52 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アプリ紹介サイト</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#myapps">My Apps</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="images/iwa7.png" alt="ロゴ">
+            </a>
+            <a href="apps.html" class="nav-link">アプリ一覧</a>
+        </nav>
+    </header>
 
-  <main>
-    <section id="home">
-      <h1>Wellcome to my Website!</h1>
-      <p>Kosuke Gotoの個人開発アプリの紹介ページです！</p>
-    </section>
+    <main>
+        <section class="intro">
+            <h1>Welcome to Kosuke Goto's website!</h1>
+            <img src="images/iwa7.png" height=300 alt="ロゴ">
+            <p>ジャンル問わずモバイルアプリを作ってリリースしています。これからもいろんなアプリを作っていきたいと思ってます。気に入ったものがあればぜひダウンロードして使ってみてください！</p>
+        </section>
+        <a href="apps.html">アプリの一覧を見る</a>
+    </main>
 
-    <section id="myapps">
-      <h2>My Apps</h2>
-      <div class="app-container">
-        <div class="app">
-          <img src="images/shiritori.jpg" alt="App 1">
-          <h3>英単語しりとり</h3>
-          <p>英単語を使ったしりとりで敵を倒そすゲームアプリ！</p>
-          <a href="https://apps.apple.com/jp/app/%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%81%97%E3%82%8A%E3%81%A8%E3%82%8A/id1581560378">App Store</a>
-        </div>
-        <div class="app">
-          <img src="images/pokemonq.jpg" alt="App 2">
-          <h3>図鑑クイズforポケモン</h3>
-          <p>ポケモン図鑑のテキストからポケモン名を当てるクイズアプリ！</p>
-          <a href="https://apps.apple.com/jp/app/%E5%9B%B3%E9%91%91%E3%82%AF%E3%82%A4%E3%82%BA-for-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3/id1634552517">App Store</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <ul>
-        <li>Twitter: @Gotchi0001</li>
-      </ul>
-    </section>
-  </main>
+    <footer>
+        アプリに関するお問い合わせ: <a href="https://x.com/Gotchi0001" class="footer-link">@Gotchi0001</a>
+    </footer>
 </body>
 </html>
