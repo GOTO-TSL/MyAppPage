@@ -1,0 +1,53 @@
+[
+    {
+        "name": "英単語しりとり",
+        "genre": "ゲーム・教育",
+        "icon": "shiritori.jpg",
+        "description": "英単語を使ったしりとりで敵を倒すゲームアプリです。楽しみながら英単語を覚えられます。",
+        "storeLinks": [
+            {
+                "platform": "App Store",
+                "url": "https://apps.apple.com/jp/app/%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%81%97%E3%82%8A%E3%81%A8%E3%82%8A/id1581560378?itsct=apps_box_badge&amp;itscg=30200"
+            }
+        ],
+        "privacyPolicy": "shiritori.html"
+    },
+    {
+        "name": "図鑑クイズ for ポケモン",
+        "genre": "ゲーム",
+        "icon": "pokemonq.jpg",
+        "description": "ポケモン図鑑の説明文からポケモン名を当てるクイズアプリです。正解数に応じたランキング機能や正解したポケモンを確認できる図鑑機能があります。",
+        "storeLinks": [
+            {
+                "platform": "App Store",
+                "url": "https://apps.apple.com/jp/app/%E5%9B%B3%E9%91%91%E3%82%AF%E3%82%A4%E3%82%BA-for-%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3/id1634552517?itsct=apps_box_badge&amp;itscg=30200"
+            }
+        ],
+        "privacyPolicy": "pokemon-quiz.html"
+    },
+    {
+        "name": "シンプル壁紙メーカー",
+        "genre": "ユーティリティー",
+        "icon": "color.png",
+        "description": "シンプルなスマホ用壁紙を作れるアプリ。タイルやボーダー、ストライプなどの柄が簡単に作れるアプリです。",
+        "storeLinks": [
+            {
+                "platform": "App Store",
+                "url": "https://apps.apple.com/jp/app/%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E5%A3%81%E7%B4%99%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC/id6504762480"
+            },
+            {
+                "platform": "Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.kosuke.color_pattern_maker&pli=1"
+            }
+        ],
+        "privacyPolicy": "simple-wallpaper-maker.html"
+    },
+    {
+        "name": "Song Speaker",
+        "genre": "音楽",
+        "icon": "music.png",
+        "description": "曲の再生時に曲名を読み上げてくれる音楽プレーヤーです。現在AppleMusicとの連携に対応しています。音楽を聴いていてこの曲の曲名なんだっけ？と思った際にはぜひお使いください。",
+        "storeLinks": [],
+        "privacyPolicy": "song-speaker.html"
+    }
+]
