@@ -14,7 +14,8 @@ body {
     border-radius: 12px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     color: #333;
 }
@@ -81,4 +82,24 @@ h1, h2 {
 .app-privacy {
     margin-top: 10px;
     text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
 }
