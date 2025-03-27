@@ -47,7 +47,12 @@
         "genre": "音楽",
         "icon": "music.png",
         "description": "曲の再生時に曲名を読み上げてくれる音楽プレーヤーです。現在AppleMusicとの連携に対応しています。音楽を聴いていてこの曲の曲名なんだっけ？と思った際にはぜひお使いください。",
-        "storeLinks": [],
+        "storeLinks": [
+            {
+                "platform": "App Store",
+                "url": "https://apps.apple.com/jp/app/song-speaker/id6743604796"
+            }
+        ],
         "privacyPolicy": "song-speaker.html"
     }
 ]
