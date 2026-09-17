@@ -54,5 +54,14 @@
             }
         ],
         "privacyPolicy": "song-speaker.html"
+    },
+    {
+        "name": "SpinCanvas",
+        "genre": "お絵かき・エンタメ",
+        "icon": "spin_canvas.png",
+        "description": "ろくろのように回転する円盤をタップして色を乗せるお絵かきアプリです。指を置いたままにすると円盤が回ることで自然に円弧や輪が描けます。ブラシや下地、ガイド線を切り替えて、作品はPNGとして写真に保存・共有できます。",
+        "storeLinks": [],
+        "_todo": "App Store公開後にstoreLinksへURLを追加する",
+        "privacyPolicy": "spin-canvas.html"
     }
 ]
